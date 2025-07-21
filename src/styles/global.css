@@ -4,17 +4,12 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 
+@import url('../../public/gvb.css');
 :root {
-  --accent: #2337ff;
-  --accent-dark: #000d8a;
-  --black: 15, 18, 25;
-  --gray: 96, 115, 159;
-  --gray-light: 229, 233, 240;
-  --gray-dark: 34, 41, 57;
-  --gray-gradient: rgba(var(--gray-light), 50%), #fff;
-  --box-shadow:
-    0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-    0 16px 32px rgba(var(--gray), 33%);
+  --accent:      var(--gvb-blue2);
+  --accent-dark: var(--gvb-blue);
+	--fg:          var(--gvb-fg0);
+	--bg:          var(--gvb-bg0);
 }
 @font-face {
   font-family: "Atkinson";
@@ -35,11 +30,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: left;
-  background: linear-gradient(var(--gray-gradient)) no-repeat;
+  background: var(--bg);
   background-size: 100% 600px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  color: rgb(var(--gray-dark));
+  color: var(--fg);
   font-size: 20px;
   line-height: 1.7;
 }
@@ -56,7 +51,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 0.5rem 0;
-  color: rgb(var(--black));
+  color: var(--fg);
   line-height: 1.2;
 }
 h1 {
@@ -86,6 +81,7 @@ a:hover {
 }
 p {
   margin-bottom: 1em;
+	color: var(--fg);
 }
 .prose p {
   margin-bottom: 2em;
@@ -107,8 +103,11 @@ img {
 }
 code {
   padding: 2px 5px;
-  background-color: rgb(var(--gray-light));
+  background-color: var(--gvb-bg2);
   border-radius: 2px;
+  border-color: var(--fg);
+	border-style: solid;
+	border-width: 1px;
 }
 pre {
   padding: 1.5em;
@@ -125,7 +124,7 @@ blockquote {
 }
 hr {
   border: none;
-  border-top: 1px solid rgb(var(--gray-light));
+  border-top: 1px solid var(--fg);
 }
 @media (max-width: 720px) {
   body {
