@@ -4,7 +4,7 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 
-@import url('/public/gvb.css');
+@import url('/gvb.css');
 :root {
   --accent:      var(--gvb-blue2);
   --accent-dark: var(--gvb-blue);
