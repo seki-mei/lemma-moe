@@ -8,7 +8,7 @@
 :root {
   --accent:      var(--gvb-blue2);
   --accent-dark: var(--gvb-blue);
-	--fg1:          var(--gvb-fg0);
+	--fg:          var(--gvb-fg0);
 	--bg:          var(--gvb-bg0);
 }
 @font-face {
@@ -26,7 +26,8 @@
   font-display: swap;
 }
 body {
-  font-family: "Atkinson", sans-serif;
+  font-family: "Helvetica", sans-serif;
+  /* font-family: "Atkinson", sans-serif; */
   margin: 0;
   padding: 0;
   text-align: left;
