@@ -164,6 +164,7 @@ hr {
 	background-color: var(--bg-alt);
 	font-size: 2.5vh;
 	width: 45%;
+	min-width: 14em;
 	height: 20%;
 	padding: 1vh 0vw;
 	border-color: var(--border);
@@ -176,7 +177,7 @@ hr {
 }
 
 .link-button:hover {
-	background-color: var(--border);
+	background-color: var(--gvb-bg3);
 }
 .link-button:active {
 	background-color: var(--bg-alt);
