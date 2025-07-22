@@ -176,9 +176,12 @@ hr {
 	margin: 2%;
 }
 
-.link-button:hover {
-	background-color: var(--gvb-bg3);
+@media (pointer: fine) {
+	.link-button:hover {
+		background-color: var(--border);
+	}
 }
+
 .link-button:active {
 	background-color: var(--bg-alt);
 	box-shadow: 0 5px var(--bg);
