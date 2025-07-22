@@ -8,8 +8,10 @@
 :root {
   --accent:      var(--gvb-blue2);
   --accent-dark: var(--gvb-blue);
-	--fg:          var(--gvb-fg0);
+	--fg:          var(--gvb-fg1);
 	--bg:          var(--gvb-bg0);
+	--bg-alt:      var(--gvb-bg2);
+	--border:      var(--gvb-fg3);
 }
 @font-face {
   font-family: "Atkinson";
@@ -153,3 +155,31 @@ hr {
   /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
   white-space: nowrap;
 }
+
+#links-list {
+	text-align: center;
+}
+.link-button {
+	color: var(--fg);
+	background-color: var(--bg-alt);
+	font-size: 20px;
+	width: 45%;
+	height: 5vh;
+	border-color: var(--border);
+	border-style: inset;
+	border-width: 2px;
+	border-radius: 1px;
+	box-shadow: 0 5px var(--bg-alt);
+	cursor: pointer;
+	margin: 2%;
+}
+
+.link-button:hover {
+	background-color: var(--border);
+}
+.link-button:active {
+	background-color: var(--bg-alt);
+	box-shadow: 0 5px var(--bg);
+	transform: translateY(4px);
+}
+
