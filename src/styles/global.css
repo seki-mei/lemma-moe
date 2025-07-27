@@ -12,6 +12,7 @@
 	--bg:          var(--gvb-bg0);
 	--bg-alt:      var(--gvb-bg2);
 	--border:      var(--gvb-fg3);
+	--purple:        #b16286;
 }
 @font-face {
   font-family: "Atkinson";
@@ -26,6 +27,9 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+}
+moe {
+	color: var(--purple);
 }
 body {
   font-family: "Helvetica", sans-serif;
