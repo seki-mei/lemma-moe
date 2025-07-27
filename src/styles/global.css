@@ -12,9 +12,9 @@
 	--bg:              var(--gvb-bg0);
 	--bg-alt:          var(--gvb-bg2);
 	--border:          var(--gvb-fg3);
-  --link:            var(--gvb-aqua);
-  --link-hover:      var(--gvb-aqua2);
-  --clicked-link:    var(--gvb-blue);
+  --link:            var(--gvb-blue);
+  --link-hover:      var(--gvb-blue2);
+  /* --clicked-link:    var(--gvb-aqua); */
 }
 @font-face {
   font-family: "Atkinson";
