@@ -6,13 +6,12 @@
 
 @import url('/gvb.css');
 :root {
-  --accent:      var(--gvb-blue2);
-  --accent-dark: var(--gvb-blue);
+  --accent: var(--gvb-purple2);
+  --accent-dark: var(--gvb-purple);
 	--fg:          var(--gvb-fg1);
 	--bg:          var(--gvb-bg0);
 	--bg-alt:      var(--gvb-bg2);
 	--border:      var(--gvb-fg3);
-	--purple:        #b16286;
 }
 @font-face {
   font-family: "Atkinson";
@@ -29,7 +28,7 @@
   font-display: swap;
 }
 moe {
-	color: var(--purple);
+	color: var(--gvb-purple2);
 }
 usernames {
 	font-weight: bold;
