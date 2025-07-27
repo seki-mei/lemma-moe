@@ -6,12 +6,15 @@
 
 @import url('/gvb.css');
 :root {
-  --accent: var(--gvb-purple2);
-  --accent-dark: var(--gvb-purple);
-	--fg:          var(--gvb-fg1);
-	--bg:          var(--gvb-bg0);
-	--bg-alt:      var(--gvb-bg2);
-	--border:      var(--gvb-fg3);
+  --accent:          var(--gvb-purple2);
+  --accent-dark:     var(--gvb-purple);
+	--fg:              var(--gvb-fg1);
+	--bg:              var(--gvb-bg0);
+	--bg-alt:          var(--gvb-bg2);
+	--border:          var(--gvb-fg3);
+  --link:            var(--gvb-aqua);
+  --link-hover:      var(--gvb-aqua2);
+  --clicked-link:    var(--gvb-blue);
 }
 @font-face {
   font-family: "Atkinson";
@@ -84,10 +87,10 @@ b {
   font-weight: 700;
 }
 a {
-  color: var(--accent);
+  color: var(--link);
 }
 a:hover {
-  color: var(--accent);
+  color: var(--link-hover);
 }
 p {
   margin-bottom: 1em;
