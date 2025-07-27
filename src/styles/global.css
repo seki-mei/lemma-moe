@@ -31,6 +31,11 @@
 moe {
 	color: var(--purple);
 }
+usernames {
+	font-family: serif;
+	font-weight: bold;
+	/* color: var(--gvb-fg3); */
+}
 body {
   font-family: "Helvetica", sans-serif;
   /* font-family: "Atkinson", sans-serif; */
