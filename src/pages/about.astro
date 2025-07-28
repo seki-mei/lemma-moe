@@ -23,7 +23,9 @@ I'm obsessed with reasoning.</p>
 					<button class="link-button">anonymous feedback</button>
 				</a>
 				<br>
-					<button class="link-button">useless button</button>
+			<button class="link-button" onclick="copy(this, '119487470')">MajSoul ID ⧉</button>
+			<br>
+			<button class="link-button" onclick="copy(this, '613129173')">Riichi City ID ⧉</button>
 			</div>
 			<br>
 			<div style="">
@@ -48,3 +50,11 @@ I'm obsessed with reasoning.</p>
 		text-align: center;
 	}
 </style>
+<script is:inline>
+	function copy(btn, text) {
+		navigator.clipboard.writeText(text);
+		const original = btn.textContent;
+		btn.textContent = 'copied nya!';
+		setTimeout(() => btn.textContent = original, 1000);
+					}
+</script>
