@@ -169,6 +169,8 @@ hr {
 	text-align: center;
 }
 .link-button {
+	line-height: 1.2; /* clipboard symbol
+	was making buttons taller than others */
 	color: var(--fg);
 	background-color: var(--bg-alt);
 	font-size: 1.2em;
